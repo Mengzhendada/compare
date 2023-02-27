@@ -1,0 +1,545 @@
+{
+    "jobs": [
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic1_born_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic1_born_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic1_born_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic1_born_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic1_born_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic1_born_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic1_born_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic1_born_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic1_born_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic1_rc_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic1_rc_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic1_rc_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic1_rc_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic1_rc_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic1_rc_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic1_rc_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic1_rc_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic1_rc_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic2_born_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic2_born_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic2_born_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic2_born_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic2_born_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic2_born_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic2_born_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic2_born_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic2_born_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic2_rc_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic2_rc_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic2_rc_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic2_rc_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic2_rc_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic2_rc_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic2_rc_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic2_rc_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic2_rc_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic3_born_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic3_born_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic3_born_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic3_born_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic3_born_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic3_born_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic3_born_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic3_born_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic3_born_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic3_rc_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic3_rc_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic3_rc_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic3_rc_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic3_rc_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic3_rc_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/eic3_rc_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_eic3_rc_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_eic3_rc_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab1_born_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_born_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_born_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab1_born_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_born_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_born_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab1_born_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_born_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_born_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab1_rc_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_rc_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_rc_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab1_rc_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_rc_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_rc_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab1_rc_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_rc_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab1_rc_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab2_born_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_born_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_born_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab2_born_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_born_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_born_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab2_born_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_born_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_born_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab2_rc_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_rc_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_rc_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab2_rc_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_rc_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_rc_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab2_rc_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_rc_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab2_rc_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab3_born_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_born_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_born_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab3_born_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_born_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_born_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab3_born_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_born_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_born_col.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab3_rc_unpol.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_rc_unpol.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_rc_unpol.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab3_rc_siv.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_rc_siv.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_rc_siv.err",
+            "timeSecs": 28800
+        },
+        {
+            "account": "halla",
+            "command": [
+              "/w/halla-scshelf2102/solid/shuo/qedsidis-factorized/analysis/JLab3_rc_col.sh" 
+            ],
+            "constraint": "centos79",
+            "cpu_cores": 1,
+            "diskBytes": 20000000000,
+            "name": "fac_fine",
+            "partition": "production",
+            "ramBytes": 5000000000,
+            "stderr": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_rc_col.out",
+            "stdout": "/volatile/halla/solid/shuo/out/fac_fine_JLab3_rc_col.err",
+            "timeSecs": 28800
+        }
+    ],
+    "name": "Fac_fine"
+}
