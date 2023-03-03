@@ -1,5 +1,5 @@
 #/bin/bash
-source /apps/anaconda3.209261397021.05/etc/profile.d/conda.sh
+source /apps/anaconda3/2021.05/etc/profile.d/conda.sh
 conda activate shuoenv 
 cd /w/halla-scshelf2102/solid/shuo/qedsidis-factorized 
 echo "Using numbers in increase_grids.txt"
