@@ -6,5 +6,5 @@ echo "Using numbers in increase_grids.txt"
 while IFS="" read -r p || [ -n "$p" ]
 do
   echo "${p}"
-  python main.py rc unpol 6.71096567 0.48 0.375 3.872983346 ${p} >>results/Fac-results/Fine/JLab_3_unpol_rc.txt
+  python main.py rc unpol 6.710965646045284 0.48 0.375 3.872983346 ${p} >>results/Fac-results/Fine/JLab_3_unpol_rc.txt
 done < analysis/increase_grids.txt
