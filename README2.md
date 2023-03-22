@@ -1,4 +1,4 @@
-# SIDIS-RC EvGen
+# SIDIS-RC EvGen on JLab ifarm
 
 This is an event generator for polarized semi-inclusive deep inelastic
 scattering (SIDIS) with QED radiative corrections, following closely work done
@@ -28,7 +28,7 @@ cd sidis
 git submodule init
 git submodule update
 ```
-The git submodule process setup the external directory. Check the content in external directory, if it's the same as on [the github](https://github.com/duanebyer/sidis/tree/master/external). If not, download the corresponding repositories. 
+The git submodule process setup the external directory. Check the content in external directory, if it is the same as on [the github](https://github.com/duanebyer/sidis/tree/master/external). If not, download the corresponding repositories. 
 ```bash
 # At the external directory
 git clone git@github.com:duanebyer/bubble.git
@@ -48,6 +48,12 @@ cmake -DSidis_BUILD_TESTS=Off -DCMAKE_INSTALL_PREFIX=../new_install ..
 # Build.
 make
 make install
+```
+Now the sidisgen is installed in build/app/sidisgen. To make it more convenient to access the generator, you could store its path in a file. Then, when you want to use the generator, you can simply source the file.
+```bash
+#add the path to the generator
+export SIDISGEN_PATH=/path/to/sidis/build/app
+export PATH=${PATH}:$SIDISGEN_PATH/sidisgen
 ```
 
 The following CMake configuration options may be of use:
@@ -97,6 +103,17 @@ sidisgen --generate <param-file>
 ```
 
 To process the resulting ROOT file, see `examples/process_events.cpp`.
+
+### Job submission
+The job submission system using here on JLab ifram is swif2. 
+
+```bash
+#/bin/bash
+cd /
+sidisgen --initialize path/to/input
+sidisgen --generate path/to/input
+```
+
 
 ### Library
 
