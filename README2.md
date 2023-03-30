@@ -14,7 +14,7 @@ This is a specific introduction for building the generator on the JLab ifarm mac
 the documentation, Doxygen must be installed; for building the tests, Catch2
 must be installed.
 
-At the beginning, check the environment:
+At the beginning, check the environment.
 ```bash
 source /path/to/thisroot.sh
 module load gcc/latest
@@ -49,9 +49,11 @@ cmake -DSidis_BUILD_TESTS=Off -DCMAKE_INSTALL_PREFIX=../new_install ..
 make
 make install
 ```
-Now the sidisgen is installed in build/app/sidisgen. To make it more convenient to access the generator, you could store its path in a file. Then, when you want to use the generator, you can simply source the file.
+Now the sidisgen is installed in build/app/sidisgen. To make it more convenient to access the generator, you could store its path in a file (eg. setup_sidis). Then, when you want to use the generator, you can simply source the setup_sidis file. 
 ```bash
-#add the path to the generator
+source path/to/thisroot.sh
+module load gcc/latest
+#Add the path to the generator
 export SIDISGEN_PATH=/path/to/sidis/build/app
 export PATH=${PATH}:$SIDISGEN_PATH/sidisgen
 ```
@@ -109,10 +111,14 @@ The job submission system using here on JLab ifram is swif2.
 
 ```bash
 #/bin/bash
-cd /
+#Go the directory where you want to do the work
+cd /somewhere
+#Set the enviroment by sourcing the file that you created above
+source setup_sidis
 sidisgen --initialize path/to/input
 sidisgen --generate path/to/input
 ```
+
 
 
 ### Library
