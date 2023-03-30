@@ -7,4 +7,4 @@ while IFS="" read -r p || [ -n "$p" ]
 do
   echo "${p}"
   python main.py rc sivleak 140 0.01 0.5 5 ${p} >>results/Fac-results/Fine/EIC_3_sivleak_rc.txt
-done < analysis/increase_grids.txt
+done < analysis/increase_grids_eic3.txt

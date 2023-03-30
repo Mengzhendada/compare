@@ -7,4 +7,4 @@ while IFS="" read -r p || [ -n "$p" ]
 do
   echo "${p}"
   python main.py rc colleak 140 0.012755102040 0.5 10 ${p} >>results/Fac-results/Fine/EIC_2_colleak_rc.txt
-done < analysis/increase_grids.txt
+done < analysis/increase_grids_eic2_colleak.txt

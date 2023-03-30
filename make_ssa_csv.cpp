@@ -8,7 +8,9 @@
 #include <memory>
 #include <vector>
 
-#include <sidis/sidis.hpp>
+//#include "/w/halla-scshelf2102/solid/shuo/sidis/include/sidis/sidis.hpp"
+//export SIDIS_PATH=/w/halla-scshelf2102/solid/shuo/sidis:$SIDIS_PATH
+#include "sidis/sidis.hpp"
 #include <sidis/sf_set/mask.hpp>
 #include <sidis/sf_set/prokudin.hpp>
 #include <sidis/sf_set/stf.hpp>

@@ -7,4 +7,4 @@ while IFS="" read -r p || [ -n "$p" ]
 do
   echo "${p}"
   python main.py rc sivleak 4.74536931662858 0.48 0.375 2.8284271247461903 ${p} >>results/Fac-results/Fine/JLab_2_sivleak_rc.txt
-done < analysis/increase_grids.txt
+done < analysis/increase_grids_JLab2.txt
