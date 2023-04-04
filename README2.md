@@ -122,7 +122,7 @@ srun --pty bash
 ./executable.sh
 ```
 To submit the jobs, a json file for this job is needed. 
-```json
+```javascript
 { "jobs":[{
   "account":"Your account",
   "command":["/path/to/your/executable/file_1.sh"],
