@@ -49,7 +49,7 @@ cmake -DSidis_BUILD_TESTS=Off -DCMAKE_INSTALL_PREFIX=../new_install ..
 make
 make install
 ```
-Now the sidisgen is installed in build/app/sidisgen. To make it more convenient to access the generator, you could store its path in a file. Then, when you want to use the generator, you can simply source the file.
+Now the sidisgen is installed in build/app/sidisgen. To make it more convenient to access the generator, you could store its path in a setup file. Then, when you want to use the generator, you can simply source the setup file.
 ```bash
 #add the path to the generator
 export SIDISGEN_PATH=/path/to/sidis/build/app
@@ -105,16 +105,64 @@ sidisgen --generate <param-file>
 To process the resulting ROOT file, see `examples/process_events.cpp`.
 
 ### Job submission
-The job submission system using here on JLab ifram is swif2. 
-
+The job submission system using here on JLab ifram is swif2. Here is an introduction for [JLab Scientific Computing](https://scicomp.jlab.org/scicomp/home). Check if you have a  [Slurm User Account](https://scicomp.jlab.org/scicomp/slurmJob/slurmAccount).
+First, some executable files are needed 
 ```bash
-#/bin/bash
-cd /
+#!/bin/bash -l
+cd where/you/want/to/start
+source environment/setup/file 
 sidisgen --initialize path/to/input
 sidisgen --generate path/to/input
 ```
-
-
+Then, you could check if you executable file can run under interactive mode
+```bash
+srun --pty bash
+./executable.sh
+```
+To submit the jobs, a json file for this job is needed. 
+```json
+{ "jobs":[{
+  "account":"Your account",
+  "command":["/path/to/your/executable/file_1.sh"],
+  "constraint":"centos79",
+  "cpu_cores":1,
+  "diskBytes":20000000000,
+  "name":"job_name",
+  "partition":"production",
+  "ramBytes":5000000000,
+  "stderr":"/where/do/you/want/to/save/out_1.out",
+  "stdout":"/where/do/you/want/to/save/err_1.err",
+  "timeSecs":28800
+  },
+  {
+  "account":"Your account",
+  "command":["/path/to/your/executable/file_2.sh"],
+  "constraint":"centos79",
+  "cpu_cores":1,
+  "diskBytes":20000000000,
+  "name":"job_name",
+  "partition":"production",
+  "ramBytes":5000000000,
+  "stderr":"/where/do/you/want/to/save/out_2.out",
+  "stdout":"/where/do/you/want/to/save/err_2.err",
+  "timeSecs":28800
+    }
+],
+"name":"job_name"
+  }
+```
+To submit the jobs, use swif2 to submit the json file and run the jobs
+```bash
+swif2 import -file jobs.json
+swif2 run job_name
+```
+There are some commends to check the job status
+```bash
+#Check all your jobs
+swif2 list
+#Cancel one job
+swif2 cancel job_name -delete
+```
 ### Library
 
 Many demonstrations of the different features of the `sidis` library can be
