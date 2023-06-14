@@ -1,4 +1,4 @@
-#We do not have good FuuL expression for now. So the results are without FuuL terms
-*all_out.txt is for FuuT+Fuucosphi+Fuucos2phi
-*FuuT_out.txt is for FuuT only
-*FuuT_cos_out.txt is for FuuT+Fuucosphi
+
+*all_out_Eb_short.txt is for FuuT+Fuucosphi+Fuucos2phi at beam energy Eb,6 for 6.535, 7 for 7.546 beam energy, and 8 for 8.4 
+*FuuT_out_Eb_short.txt is for FuuT only
+*FuuT_cos_out_Eb_short.txt is for FuuT+Fuucosphi
