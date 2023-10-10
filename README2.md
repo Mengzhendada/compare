@@ -44,7 +44,7 @@ cd build
 # Configure the build.
 # Optionally install the library and binary files to your system. Use
 # `CMAKE_INSTALL_PREFIX` during the configure to choose the install location.
-cmake -DSidis_BUILD_TESTS=Off -DCMAKE_INSTALL_PREFIX=../new_install ..
+cmake ..
 # Build.
 make
 make install
